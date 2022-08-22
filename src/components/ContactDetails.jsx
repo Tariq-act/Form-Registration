@@ -9,8 +9,13 @@ export const ContactDetails = () => {
     <>
       <div className='field-container'>
         <div className='form-control'>
-          <label htmlFor='name'>Guardian Details</label>
-          <Field type='text' name='name' id='name' placeholder='Enter Name' />
+          <label htmlFor='guardian'>Guardian Details</label>
+          <Field
+            type='text'
+            name='guardian'
+            id='guardian'
+            placeholder='Enter Guardian Name'
+          />
         </div>
 
         <div className='form-control'>

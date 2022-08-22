@@ -19,6 +19,11 @@ code {
     monospace;
 }
 
+select[disabled],
+select:disabled {
+  opacity: 0.4;
+}
+
 .form-control {
   display: flex;
   gap: 0.5rem;
